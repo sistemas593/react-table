@@ -9,7 +9,9 @@ export const UserRoutes = () => {
         <>
 
                 <Routes>
-                    <Route path="users/page" element={<List />} />                    
+                    <Route path="users/page" element={<List />} />               
+                         
+                    <Route path="/" element={<Navigate to="users/page"/>} />
                 </Routes>
         </>
     )
@@ -20,7 +22,7 @@ export const UserRoutes = () => {
                         <Route path="users/register" element={<Register />} />
                         <Route path="users/edit/:id" element={<Register />} />
 
-                    <Route path="/" element={<Navigate to="users/page"/>} />
+                    
                     <Route path="/users" element={<Navigate to="page"/>} />
 
 */
