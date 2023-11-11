@@ -56,7 +56,7 @@ export const List = () => {
 
                         {
                             clientes.length === 0
-                                ? <div className="alert alert-warning">No hay usuarios en el sistema!</div>
+                                ? <div className="alert alert-warning">No hay registros!</div>
                                 : <>
                                     <Table columns={columns} data={clientes} />
                          

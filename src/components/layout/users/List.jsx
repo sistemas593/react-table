@@ -30,13 +30,13 @@ export const List = () => {
     return (
         <>
                 
-            <div className="container mx-auto">
+                <div class="container mx-auto">
                 <div className="row">
                     <div className="col">
 
                         {
                             users.length === 0
-                                ? <div className="alert alert-warning">No hay usuarios en el sistema!</div>
+                                ? <div className="alert alert-warning">No hay registros!</div>
                                 : <>
                                     
                                     <Table columns={columns} data={users} />

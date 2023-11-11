@@ -1,7 +1,5 @@
 import { Navigate, Route, Routes } from "react-router-dom"
 
-import { Register } from "../components/layout/users/Register"
-
 import { List } from "../components/layout/users/List"
 
 export const UserRoutes = () => {
